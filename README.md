@@ -1,4 +1,5 @@
-# Snake-c
+# Snake-c 1.0.1
+<img src="./screenshot.png">
 ## What's this?
 It's a snake game made in C using the raylib library. It is not perfect by any means but I made it as a base for another project, but then, right before adding the AI reinforcement learning to automate the snake, I thought, well, it's a pretty neat program already and people might like it, so I made a repo for it.
 
@@ -21,7 +22,8 @@ Because eh, works well enough. Besides as I said this program isn't meant to be 
 No.
 
 ## Version history
+- 1.0.1: Fixed problems in the README and added a screenshot.
 - 1.0.0: Initial release.
 
 ## License
-Click [./LICENSE](here) to open the license.
+Click [here](./LICENSE) to open the license.
