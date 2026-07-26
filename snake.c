@@ -5,6 +5,7 @@
 #include <time.h>
 #include <stdint.h>
 #include <math.h>
+#include <unistd.h>
 
 #include "raylib.h"
 
@@ -139,7 +140,7 @@ int main(){
         last_xModify = xModify;
         last_yModify = yModify;
 
-        if (timeAccumulate > 0.25){
+        if (timeAccumulate > 0.25 - 0.025){ //Remove the usleep from the delay
             snake[snake_length].type = 1;
             snake[snake_length].grid_x = snake[snake_length - 1].grid_x + xModify;
             snake[snake_length].grid_y = snake[snake_length - 1].grid_y + yModify;
@@ -219,6 +220,8 @@ int main(){
         timeAccumulate += GetFrameTime();
 
         EndDrawing();
+        
+        usleep(25 * 1000); //25ms
     }
 
     CloseWindow();

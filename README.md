@@ -1,4 +1,4 @@
-# Snake-c 1.0.2
+# Snake-c 1.0.3
 <img src="./screenshot.png">
 
 ## What's this?
@@ -23,6 +23,7 @@ Because eh, works well enough. Besides as I said this program isn't meant to be 
 No.
 
 ## Version history
+- 1.0.3: Do you like when your simple snake game uses 100% cpu single core? No?.. Me neither, so I fixed it.
 - 1.0.2: Fixed another readme problem. Maybe I should invest some effort in installing a markdown renderer to see how it would look before pushing to main?.. Or not.
 - 1.0.1: Fixed problems in the README and added a screenshot.
 - 1.0.0: Initial release.
